@@ -5,16 +5,14 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
+      host: "localhost",
       database: "knex_test",
-      user: "postgres",
-      password: "postgres"
+      user: "coder84",
+      password: "mestre123"
     }
   },
   migrations:{
     tableName: 'knex_migrations',
-    directory: `${__dirname}/src/database/migrations`
   }
-
-  
 
 };
